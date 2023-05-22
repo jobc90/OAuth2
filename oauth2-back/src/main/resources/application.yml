@@ -1,4 +1,12 @@
 spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: whqudcjf15@gmail.com
+    password: smstpeamhmooiczb
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
   servlet:
     multipart:
       max-file-size: 100MB
@@ -55,5 +63,5 @@ jwt:
   secret: ezV2FMXHX7bzV8eEL9lHf0MLSCnB5M6gtjcHmokIxABqjplbHtRypoN8H2vMTxVO
   
 file:
-  path: C:/junil/aws_20221228_junil/workspace/oauth2/oauth2-back/upload/
+  path: C:/junil/aws_20221228_bc/workspace/OAuth2/oauth2-back/upload/
   
