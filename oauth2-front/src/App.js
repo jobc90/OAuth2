@@ -9,6 +9,7 @@ import OAuth2Merge from './pages/OAuth2Merge/OAuth2Merge';
 import PostRegister from './pages/Posts/PostRegister';
 import OAuth2Register from './pages/Register/OAuth2Register';
 import ForgotPassword from './pages/Forgot/ForgotPassword';
+import Profile from './pages/MyPage/Profile';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <Route path='/auth/forgot/password' element={<AuthRoute path={"/auth/forgot/password"} element={<ForgotPassword />} />}/>
         <Route path='/' element={<AuthRoute path={"/"} element={<Index />} />}/>
         
-        <Route path='/mypage' element={<AuthRoute path={"/mypage"} element={<Index />} />}/>
+        <Route path='/mypage/profile' element={<AuthRoute path={"/mypage/profile"} element={<Profile />} />}/>
         <Route path='/post/register' element={<AuthRoute path={"/post/register"} element={<PostRegister />} />}/>
 
 
